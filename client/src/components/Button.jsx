@@ -24,7 +24,7 @@ export default function Button({
     <Tag
       className={`inline-flex items-center justify-center gap-2 font-body text-button
         transition-all duration-150 ease-out select-none whitespace-nowrap
-        min-h-[44px] ${variants[variant]} ${sizes[size]} ${className}`}
+        min-h-[40px] ${variants[variant]} ${sizes[size]} ${className}`}
       {...props}
     >
       {children}

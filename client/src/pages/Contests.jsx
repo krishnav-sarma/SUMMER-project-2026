@@ -5,7 +5,7 @@ import Navbar from "../components/Navbar";
 
 export default function Contests() {
   return (
-    <div className="min-h-screen bg-[#C8D8F1] ">
+    <div className="min-h-screen bg-[#DEEBFB] ">
       <Navbar />
       <div className="max-w-[1200px] h-screen mx-auto px-lg2 py-xl2">
         <div className="mb-lg2">

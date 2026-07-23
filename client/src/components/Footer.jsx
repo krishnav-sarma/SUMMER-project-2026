@@ -9,7 +9,7 @@ export default function Footer() {
             If you are passionate about tackling some of the most interesting
             problems around, we would love to hear from you.
           </p>
-          <a  href="#" className="mt-8 inline-flex items-center gap-2 text-[#007aff] hover:gap-3 transition-all" > Join Our Team
+          <a  href="/" className="mt-8 inline-flex items-center gap-2 text-[#007aff] hover:gap-3 transition-all" > Join Our Team
           <ChevronRight size={18} />
           </a>
         </div>
@@ -18,13 +18,13 @@ export default function Footer() {
           <p className="text-[#7b7b7b]">Copyright © 2026 WellCode</p>
 
           <div className="flex flex-wrap items-center justify-center gap-3 text-[#666]">
-            <a href="#" className="text-[#7b7b7b] hover:text-black transition"> Help Center </a>
+            <a href="/" className="text-[#7b7b7b] hover:text-black transition"> Help Center </a>
             <span>|</span>
-            <a href="#" className="text-[#7b7b7b] hover:text-black transition"> Bug Bounty </a>
+            <a href="/" className="text-[#7b7b7b] hover:text-black transition"> Bug Bounty </a>
             <span>|</span>
-            <a href="#" className="text-[#7b7b7b] hover:text-black transition"> Terms </a>
+            <a href="/" className="text-[#7b7b7b] hover:text-black transition"> Terms </a>
             <span>|</span>
-            <a href="#" className="text-[#7b7b7b] hover:text-black transition"> Privacy Policy </a>
+            <a href="/" className="text-[#7b7b7b] hover:text-black transition"> Privacy Policy </a>
             <span className="hidden sm:inline">|</span>
 
             <button className="flex items-center gap-2 hover:text-black transition">

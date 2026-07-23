@@ -1,0 +1,10 @@
+const express = require("express");
+const { listUsers, toggleBan } = require("../controllers/userController");
+const { requireAuth, requireAdmin } = require("../middleware/auth");
+
+const router = express.Router();
+
+router.get("/", requireAuth, requireAdmin, listUsers);
+router.post("/:id/ban", requireAuth, requireAdmin, toggleBan);
+
+module.exports = router;

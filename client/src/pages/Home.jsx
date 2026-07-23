@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Third from "../components/Third";
 import Second from "../components/Second";
